@@ -1,0 +1,12 @@
+{
+  "fullname": "Heleus Message",
+  "name": "Message",
+  "description": "The secure text messenger.",
+  "developer": "Heleus Core",
+  "domain": "heleuscore.com",
+  "link": "https://heleuscore.com/message/",
+  "package": "com.heleuscore.message",
+  
+  "primarycolor":"50,180,10",
+  "secondarycolor":"40,130,20"
+}

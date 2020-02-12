@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218799567444",
+    "firebase_url": "https://com-heleuscore-message.firebaseio.com",
+    "project_id": "com-heleuscore-message",
+    "storage_bucket": "com-heleuscore-message.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218799567444:android:2f2e8d0187d2de461c33c1",
+        "android_client_info": {
+          "package_name": "com.heleuscore.message"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218799567444-0441sq4s12l6lathiog046c2n0838545.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2z8Hi-ZSCUA3RN2efZOkSCTbF1SQ31Qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218799567444-0441sq4s12l6lathiog046c2n0838545.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

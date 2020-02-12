@@ -1,0 +1,11 @@
+comments.png => Platforms/iOS/Resources/icons/comments.png ; blend 25x25 25x25;
+comments.png => Platforms/iOS/Resources/icons/comments@2x.png ; blend 50x50 50x50;
+comments.png => Platforms/iOS/Resources/icons/comments@3x.png ; blend 75x75 75x75;
+
+userfriends.png => Platforms/iOS/Resources/icons/users.png ; blend 25x25 25x25;
+userfriends.png => Platforms/iOS/Resources/icons/users@2x.png ; blend 50x50 50x50;
+userfriends.png => Platforms/iOS/Resources/icons/users@3x.png ; blend 75x75 75x75;
+
+sliders.png => Platforms/iOS/Resources/icons/sliders.png ; blend 25x25 25x25;
+sliders.png => Platforms/iOS/Resources/icons/sliders@2x.png ; blend 50x50 50x50;
+sliders.png => Platforms/iOS/Resources/icons/sliders@3x.png ; blend 75x75 75x75;

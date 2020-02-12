@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{98E1B380-87B9-4F3E-9579-0ECE0ED21E32}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Heleus.Apps.Message</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Page\TestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\UIApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\UIAppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\Theme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\AboutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\SettingsPage.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\debuginfo.txt">
+      <Link>debuginfo.txt</Link>
+    </EmbeddedResource>
+    <Compile Include="$(MSBuildThisFileDirectory)HeleusClientResponseExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ContactsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\SearchContactProfilePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\PendingContacsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Friend.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ContactPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ChatListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ChatPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\AcceptInvitationEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\FriendsDownloadEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\ChatMessageDownloadEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\InboxRecordDownloadEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\InboxRenameEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\MessageNodeClientEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\MessageNodeEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\MessageNodeResultEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\MessageSentEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\SendInvitationEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageSubmitAccount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InboxRecordInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ChatsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\EditInboxPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\InboxesPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\MessageNodeRefreshEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ChatsListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewChatSchemeAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewFriendSchemeAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ChatProfileButtonRow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\MessagePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ContactsListView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Translation\en.txt" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\..\Heleus.AppBase\AppTemplate\App\Translation\en.common.txt">
+      <Link>Translation\en.common.txt</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

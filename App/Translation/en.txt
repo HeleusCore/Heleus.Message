@@ -1,0 +1,115 @@
+App.Name: Message
+App.FullName: Heleus Message
+App.Developer: Heleus Core
+App.Description: The secure text messenger
+App.Link: https://heleuscore.com/message/
+App.Version: 0.1.0 (build 1)
+App.Scheme: heleusmessage
+
+Common.Inbox: Inbox
+Common.InboxName: Inbox {0}/{1}
+Common.MessageSecretKeyMissing: Decrypting the message failed, the secret key is missing.
+Common.MessageDecryptionError: Decrypting the message failed.
+
+## PAGES
+#
+ChatsPage.Title: Chats 
+ChatsPage.Auth: Thank you for using {0}. Write instant text messages to your family, friends or colleagues for free. 
+ChatsPage.Info: You can start using {0} now. Have a look at the contacts section and send messages to your family and friends or invite new contacts. 
+
+ChatPage.TypeText: Your Message
+ChatPage.Info: Contact
+ChatPage.NoListViewItemFound: No messages available.
+
+MessagePage.Title: Message
+MessagePage.Message: Message
+MessagePage.SecretKeyInfo: Secret Key Info
+MessagePage.Import: Manage Secret Keys
+MessagePage.TransactionInfo: Transaction Info
+
+ContactsPage.Title: Contacts
+ContactsPage.Friends: Your Contacs
+ContactsPage.NoFriends: You have no contacts available yet. 
+ContactsPage.MiscHeader: More
+ContactsPage.MiscInfo: You can send messages to approved contacts only. You can search for them and invite them or share your contact with others.
+ContactsPage.Pending: Pending Invitations
+ContactsPage.Search: Find Contact 
+ContactsPage.YourContact: View Your Contact
+ContactsPage.Copy: Copy Your Contact Link
+ContactsPage.Copied: Contact Link copied to Clipboard
+ContactsPage.Share: Share Your Contact
+ContactsPage.Auth: Authorization Required
+ContactsPage.Authorize: Authorize
+ContactsPage.AutorhizeInfo: Before you can start using Heleus Message, you must authorize it. 
+
+ContactPage.Title: Contact
+ContactPage.Invitation: Invitation
+ContactPage.PendingInvitation: Pending Invitation
+ContactPage.PendingInvitationInfo: You can send messages to approved contacts only. You can see all your open invitiations here.
+ContactPage.ApproveButton: Approve Invitation
+ContactPage.AwaitingApprovalButton: Awaiting Approval
+ContactPage.InviteButton: Send Invitation
+ContactPage.InvitationInfo: You can send messages to approved contacts only. Invite them to get in contact with you.
+ContactPage.Chats: Available Chats
+ContactPage.Misc: More
+ContactPage.ViewInboxes: View All Inboxes
+ContactPage.RemoveChat: Remove Chat from Overview
+ContactPage.Unfriend: Delete Contact
+ContactPage.ManageSecretKeys: Manage Secret Keys
+ContactPage.NofificationHeader: Notifications
+ContactPage.Notification: Receive Notifications
+ContactPage.SelectInbox: Available Contact Inboxes
+ContactPage.SelectInboxInfo: A contact can have multiple inboxes, where it can receive messages. Please select the inbox, where you want to send your message.
+ContactPage.InvalidAccount: Inboxes download failed. You use an invalid account.
+ContactPage.DownloadFailed: Inboxes download failed.
+ContactPage.Inbox: Select Your Inbox
+ContactPage.InboxInfo: You must select your inbox where you want to receive your contacts messages.
+ContactPage.NotFriends: You can't send messages to this contact yet. The contact is not approved yet.
+ContactPage.SendMessage: Send Message
+ContactPage.ConfirmRemoveChat: Do you really want to remove this chat?
+ContactPage.RemoveChatSuccess: The chat was removed from the chat overview.
+ContactPage.ConfirmUnfriend: Do you really want to delete this contact? You won't be able to send or receives messages anymore.
+ContactPage.UnfriendSuccess: You deleted the contact from your contacts list.
+ContactPage.EnableNotify: Enable Notifications?
+ContactPage.DisableNotify: Disable Notifications?
+ContactPage.NotifyChanged: The notification setting changed.
+ContactPage.AwaitingApproval: The invitation is pending. Your contact must approve the invitation.
+ContactPage.InvitationConfirm: Do you want to invitation this contact?
+ContactPage.InvitationSuccess: The invitation was sent to this contact.
+ContactPage.ApprovalConfirm: Do you want to approve this contact?
+ContactPage.ApprovalSuccess: The contact was approved. You send start sending messages to this contact.
+ContactPage.Copy: .ContactsPage.Copy
+ContactPage.Copied: .ContactsPage.Copied
+ContactPage.Share: .ContactsPage.Share
+
+
+InboxesPage.Title: Your Inboxes
+InboxesPage.Inboxes: Edit Your Inboxes
+InboxesPage.InvalidAccount: Invalid service Account.
+InboxesPage.DownloadFailed: Downloading your inboxes failed.
+InboxesPage.EditName: Edit Name 
+InboxesPage.Copy: Copy Inbox Link
+InboxesPage.Copied: Inbox Link Copied
+InboxesPage.Share: Share Inbox
+
+
+EditInboxPage.Title: Inbox
+EditInboxPage.RenameHeader: Rename Inbox
+EditInboxPage.RenameEntry: Inbox Name
+EditInboxPage.RenameStatus: - Set an inbox name
+EditInboxPage.RenameButton: Rename
+EditInboxPage.RenameConfirm: Do you really want to rename your inbox?
+EditInboxPage.RenameSuccess: Your inbox was renamed.
+
+PendingContactsPage.Title: .ContactsPage.Pending
+PendingContactsPage.RequiredApproval: Approval Required
+PendingContactsPage.AwaitingApproval: Awaiting Approval
+PendingContactsPage.NoInvitations: No Pending Invitations.
+PendingContactsPage.NoInvitationsInfo: There are currently no pending invitations available.
+
+
+## ENUMS
+
+ServiceUserCodes: Service error: {0} (Code {1}).
+ServiceUserCodes.None: Ok
+ServiceUserCodes.InvalidTransaction: Invalid transaction
